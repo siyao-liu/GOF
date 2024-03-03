@@ -1,0 +1,17 @@
+Package: GOF
+Type: Package
+Title: Select features for clustering scRNAseq data using the Goodness
+        of Fit measures.
+Version: 0.1.0
+Author: Siyao Liu
+Date: 2024-2-6
+Maintainer: Siyao Liu <Siyao_Liu@med.unc.edu>
+Description: Select features based on the goodness of fit of raw UMI count data to a mixture of Negative Binomial (NB) distributions, termed “Average Negative Binomial” (ANB).
+    Four variants of GOF are developed in terms of how the goodness of fit is quantified: GOF-PP, GOF-QQ, GOF-Wdist.mean, and GOF-Wdist.med.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Depends: R (>= 4.0.3)
+NeedsCompilation: no
+Packaged: 2024-03-03 15:48:36 UTC; siyaoliu
